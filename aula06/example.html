@@ -15,14 +15,27 @@
         //     document.write('Ainda não é maior de idade')
         // }
 
-         let temp = Number(prompt('Qual é a temperatura agora?'))
-    if (temp >= 30) {
-        document.write('Está bem quente! ☀️')
-    } else if (temp >= 20) {
-        document.write('Temperatura agradável 😎')
+    //      let temp = Number(prompt('Qual é a temperatura agora?'))
+    // if (temp >= 30) {
+    //     document.write('Está bem quente!')
+    // } else if (temp >= 20) {
+    //     document.write('Temperatura agradável')
+    // } else {
+    //     document.write('Está frio ')
+    // }
+
+    let years = Number(prompt('Qual sua idade?'))
+    if (years <= 12){
+        alert('Você é criança!')
+    } else if (years >= 13 && years <= 17){
+        alert('Você é um adolescente!')
+    } else if( years >=18 && years <=59) {
+        alert('Você é um adulto')
     } else {
-        document.write('Está frio 🧊')
+        alert('Você é idoso, tenha cuidado!!')
     }
+     
+
     </script>
 </body>
 </html>
