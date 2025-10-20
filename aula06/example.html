@@ -24,17 +24,28 @@
     //     document.write('Está frio ')
     // }
 
-    let years = Number(prompt('Qual sua idade?'))
-    if (years <= 12){
-        alert('Você é criança!')
-    } else if (years >= 13 && years <= 17){
-        alert('Você é um adolescente!')
-    } else if( years >=18 && years <=59) {
-        alert('Você é um adulto')
-    } else {
-        alert('Você é idoso, tenha')
-    }
-     
+    // let years = Number(prompt('Qual sua idade?'))
+    // if (years <= 12){
+    //     alert('Você é criança!')
+    // } else if (years >= 13 && years <= 17){
+    //     alert('Você é um adolescente!')
+    // } else if( years >=18 && years <=59) {
+    //     alert('Você é um adulto')
+    // } else {
+    //     alert('Você é idoso, tenha')
+    // }    
+
+    let pontos = Number(prompt('Quantos pontos você fez?'))
+
+if (pontos < 100) {
+    alert('Nível: Iniciante')
+} else if (pontos < 500) {
+    alert('Nível: Intermediário')
+} else if (pontos < 1000) {
+    alert('Nível: Avançado')
+} else {
+    alert('Nível: Mestre!')
+}
 
     </script>
 </body>
