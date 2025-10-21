@@ -47,14 +47,22 @@
 //     alert('Nível: Mestre!')
 // }
 
-        let media = prompt("Digite a nota do aluno:") 
-        media = Number(media)
+        // let media = prompt("Digite a nota do aluno:") 
+        // media = Number(media)
 
-        if(media >= 7) {
-            alert('Aprovado!')
-        } else {
-            alert('Reprovado!')
-        }
+        // if(media >= 7) {
+        //     alert('Aprovado!')
+        // } else {
+        //     alert('Reprovado!')
+        // }
+
+        let mediaEscolar = prompt("Digite a nota do aluno:")
+
+        mediaEscolar = Number(mediaEscolar) 
+
+        let resultado = mediaEscolar > 7 ? "Aprovado" : "Reprovado"
+
+        alert(resultado) 
 
     </script>
 </body>
