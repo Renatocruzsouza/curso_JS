@@ -69,14 +69,20 @@
 
        // alert(`O número ${x} é ${res}.`)
 
-         let num = prompt("Digite um número:")
-        num = Number(num)
+        //  let num = prompt("Digite um número:")
+        // num = Number(num)
 
-        let resultado = num > 0 ? "positivo" : num < 0 ? "negativo" : "zero"
+        // let resultado = num > 0 ? "positivo" : num < 0 ? "negativo" : "zero"
 
-        alert(`O número ${num} é ${resultado}.`)
+        // alert(`O número ${num} é ${resultado}.`)
 
- 
+        let senha = prompt("Digite sua senha:")
+
+        let mensagem = senha.length >= 8 
+        ? "Senha válida " : "Senha muito curta (mínimo 8 caracteres)"
+
+        alert(mensagem)
+
     </script>
 </body>
 </html>
