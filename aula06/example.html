@@ -76,10 +76,17 @@
 
         // alert(`O número ${num} é ${resultado}.`)
 
-        let senha = prompt("Digite sua senha:")
+        // let senha = prompt("Digite sua senha:")
 
-        let mensagem = senha.length >= 8 
-        ? "Senha válida " : "Senha muito curta (mínimo 8 caracteres)"
+        // let mensagem = senha.length >= 8 
+        // ? "Senha válida " : "Senha muito curta (mínimo 8 caracteres)"
+
+        // alert(mensagem)
+
+        let saldo = prompt("Digite seu saldo:")
+        let compra = prompt("Digite o valor da compra:")
+
+        let mensagem = Number(saldo) >= Number(compra) ? "Compra realizada com sucesso!" : "Saldo insuficiente!"
 
         alert(mensagem)
 
